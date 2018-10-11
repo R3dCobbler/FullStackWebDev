@@ -11,6 +11,7 @@ article {
   padding: 20px;
   background-color: cadetblue;
   color: beige;
+  height: 1000px;
 }
 
 /** HEADER **/
@@ -67,21 +68,32 @@ article {
   padding-bottom: 30px;
   background-color: cadetblue;
   color: beige;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0; 
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; 
+  margin-bottom: 0px;
 }
 /* END FOOTER */
 
 /********** Desktop - Medium devices only **********/
 @media (min-width: 992px) {
-  
+.panel-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  }
 }
 
 /********** Tablet - Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  panel-footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    }
 }
 
 /********** Mobile - Extra small devices only **********/
@@ -104,6 +116,11 @@ article {
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    
   }
   /* End Footer */
 
